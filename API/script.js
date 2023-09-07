@@ -27,7 +27,7 @@ botao.forEach((item,index) => {
 
 
 async function buscarplaylist(PLAYLIST){
-  const url = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=10&playlistId=${PLAYLIST}&key=AIzaSyCRC-rcXFnlIqQx-HPeOezj-cdi0Q41ris`
+  const url = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=10&playlistId=${PLAYLIST}&key=SUACHAVE`
   const buscar = await fetch(url);
   const formatar = await buscar.json();
 
